@@ -1,0 +1,17 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <tr-viewer #viewer1 
+    [containerStyle]="viewerContainerStyle"
+    [serviceUrl]="'http://localhost:12345/api/reports/'"
+    [reportSource]="{
+        report: 'Product Line Sales.trdp',
+        parameters: { CultureID: 'en'}
+    }"
+    [viewMode]="'INTERACTIVE'"
+    [scaleMode]="'SPECIFIC'"
+    [scale]="1.0"
+    [ready]="ready"
+    [viewerToolTipOpening]="viewerToolTipOpening"
+    [enableAccessibility]="false">
+</tr-viewer>
+</div>
