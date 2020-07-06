@@ -1,0 +1,47 @@
+﻿@using Telerik.Reporting
+@using Telerik.ReportViewer.Mvc
+@{
+    ViewBag.Title = "Home Page";
+}
+
+@section styles
+{
+
+    <style>
+        body {
+            margin: 5px;
+            font-family: Verdana, Arial, sans-serif;
+        }
+
+        #reportViewer1 {
+            position: absolute;
+            left: 5px;
+            right: 5px;
+            top: 40px;
+            bottom: 5px;
+            overflow: hidden;
+            clear: both;
+        }
+    </style>
+}
+
+@section scripts
+{
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="@Url.Content("http://localhost:12345/api/reports/resources/js/telerikReportViewer/")"></script>
+    @(Html.TelerikReporting().DeferredScripts())
+}
+
+@(Html.TelerikReporting().ReportViewer()
+                    .Id("reportViewer1")
+                    .ServiceUrl(Url.Content("http://localhost:12345/api/reports/"))
+                    .ReportSource(new UriReportSource() { Uri = "OlympicMedalsByNationalTeams.trdp" })
+                    .ViewMode(ViewMode.Interactive)
+                    .ScaleMode(ScaleMode.Specific)
+                    .Scale(1.0)
+                    .PersistSession(false)
+                    .PrintMode(PrintMode.AutoSelect)
+                    .EnableAccessibility(false)
+                    .SearchMetadataOnDemand(false)
+                    .Deferred()
+)
