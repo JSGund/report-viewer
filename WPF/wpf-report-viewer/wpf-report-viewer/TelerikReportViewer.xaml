@@ -4,7 +4,7 @@
     xmlns:local="clr-namespace:wpf_report_viewer"
     xmlns:tr="http://schemas.telerik.com/wpf"
     xmlns:telerikReporting="clr-namespace:Telerik.Reporting;assembly=Telerik.Reporting"
-    Title="Report Viewer Window">
+    Title="Telerik Report Viewer">
 
     <Grid x:Name="LayoutRoot">
         <Grid Margin="20" >
@@ -15,7 +15,7 @@
             <tr:ReportViewer Grid.Row="0" x:Name="ReportViewer1" HorizontalAlignment="Stretch" EnableAccessibility="True"
 							 ReportEngineConnection="engine=RestService;uri=http://localhost:12345/api/reports">
               <tr:ReportViewer.ReportSource>
-                <telerikReporting:UriReportSource Uri="D:\Other\Progress\csharprestserviceclient\RestService1\Reports\Product Catalog.trdp" />
+                <telerikReporting:UriReportSource Uri="path\Reports\Product Catalog.trdp" />
               </tr:ReportViewer.ReportSource>
             </tr:ReportViewer>
 
