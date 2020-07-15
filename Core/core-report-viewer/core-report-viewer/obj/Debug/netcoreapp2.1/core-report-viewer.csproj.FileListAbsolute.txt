@@ -1,0 +1,14 @@
+D:\Other\GitHub\report-viewer\Core\core-report-viewer\core-report-viewer\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+D:\Other\GitHub\report-viewer\Core\core-report-viewer\core-report-viewer\bin\Debug\netcoreapp2.1\core-report-viewer.deps.json
+D:\Other\GitHub\report-viewer\Core\core-report-viewer\core-report-viewer\bin\Debug\netcoreapp2.1\core-report-viewer.runtimeconfig.json
+D:\Other\GitHub\report-viewer\Core\core-report-viewer\core-report-viewer\bin\Debug\netcoreapp2.1\core-report-viewer.runtimeconfig.dev.json
+D:\Other\GitHub\report-viewer\Core\core-report-viewer\core-report-viewer\bin\Debug\netcoreapp2.1\core-report-viewer.dll
+D:\Other\GitHub\report-viewer\Core\core-report-viewer\core-report-viewer\bin\Debug\netcoreapp2.1\core-report-viewer.pdb
+D:\Other\GitHub\report-viewer\Core\core-report-viewer\core-report-viewer\obj\Debug\netcoreapp2.1\core-report-viewer.csprojAssemblyReference.cache
+D:\Other\GitHub\report-viewer\Core\core-report-viewer\core-report-viewer\obj\Debug\netcoreapp2.1\core-report-viewer.RazorAssemblyInfo.cache
+D:\Other\GitHub\report-viewer\Core\core-report-viewer\core-report-viewer\obj\Debug\netcoreapp2.1\core-report-viewer.RazorAssemblyInfo.cs
+D:\Other\GitHub\report-viewer\Core\core-report-viewer\core-report-viewer\obj\Debug\netcoreapp2.1\core-report-viewer.AssemblyInfoInputs.cache
+D:\Other\GitHub\report-viewer\Core\core-report-viewer\core-report-viewer\obj\Debug\netcoreapp2.1\core-report-viewer.AssemblyInfo.cs
+D:\Other\GitHub\report-viewer\Core\core-report-viewer\core-report-viewer\obj\Debug\netcoreapp2.1\core-report-viewer.RazorTargetAssemblyInfo.cache
+D:\Other\GitHub\report-viewer\Core\core-report-viewer\core-report-viewer\obj\Debug\netcoreapp2.1\core-report-viewer.dll
+D:\Other\GitHub\report-viewer\Core\core-report-viewer\core-report-viewer\obj\Debug\netcoreapp2.1\core-report-viewer.pdb
